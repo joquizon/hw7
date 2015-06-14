@@ -57,6 +57,25 @@ $(".tab").mouseenter(function() {
   $(".tab").mouseleave(function() {
   	$(this).animate({"width": "80%","height": "80%","margin-left":"0px" }, 150 );
 });
+setInterval(function(){
+  var today=new Date();
+    var h=today.getHours();
+    var m=today.getMinutes();
+    var seconds=today.getSeconds();
+ 
+
+  if (seconds < 20)
+  	{   document.getElementById("mainbg").style.backgroundImage = "url('jmb.gif')";
+
+  	}
+  else if (seconds >20 && seconds <40)
+  	{  document.getElementById("mainbg").style.backgroundImage = "url('picasso.gif')";
+  	}
+  else if (seconds >40 && seconds <59)
+  	{  document.getElementById("mainbg").style.backgroundImage = "url('pollock.gif')";
+  	}
+  else
+  	{ document.getElementById("mainbg").style.backgroundImage = "url('giphy.gif')"}},3000)
 
 $("#ddown").click(function() {
   $( "#afaheader" ).animate({"margin-top":"15%" }, 150);
