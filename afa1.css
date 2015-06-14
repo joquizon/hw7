@@ -22,9 +22,9 @@
 				
 					width:100px;}
 
-.nav {z-index:1;
+.tab {z-index:30;
 		margin-left:0px;
-				width:55px;
+				width:80%;
 					margin-top:-22px}
 
 ul {list-style-type: none;display:inline-block;}
@@ -32,9 +32,33 @@ ul {list-style-type: none;display:inline-block;}
 #home {margin-top: 50px}
 #ctac {}
 
+#ddown {width:4%;
+			height:4%;}
+
+#mstate { width:800px;
+			height:300px;
+		background-color: green;
+			left-padding:40px;
+			position:absolute;
+			margin-top: 60px
+			
+				z-index:1;
+					opacity: 1;}
+
+#statefo { margin-left:40px;
+	padding-left: 40px;
+	margin-top:20px;
+		padding-top:20px;
+
+		color:white;
+		font-family: helvet;
+			font-size: 20px;
+				position:absolute
+				word-spacing: 3px}
+
 #afaheader {width:45%;
 				height:45%;
-					padding-left:2% ;
+					padding-left:29% ;
 						padding-top:1% }
 
 #afaheader1 {width:438px;
@@ -52,9 +76,9 @@ ul {list-style-type: none;display:inline-block;}
 
 #motto {color:white;
 			padding-top: 5%;
-			padding-left: 12%;
+			padding-left:5%;
 				font-family: helvet;
-					font-size: 70px;
+					font-size: 60px;
 						word-spacing: 2px}
 
 #infotitle {color:white;

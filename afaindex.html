@@ -10,37 +10,62 @@
 	</head>
 
 	<body id="mainbg">
-		
-		
+	
 		
 		<nav id="navig">
 			<ul>
 				<li>
 
-					<img class="nav" src="navhome.png">
+					<img class="tab" src="navhome.png">
 				</li>
 				
 				<li>
-					<img class="nav" src="navprog.png">
+					<img class="tab" src="navprog.png">
 				</li>
 				
 				<li>
-					<img class="nav"src="navdonation.png">
+					<img class="tab"src="navdonation.png">
 				</li>
 				
 				<li>
-					<img class="nav"  src="navcontact.png">
+					<img class="tab"  src="navcontact.png">
 				</li>
 				</ul>
 		</nav>	
+		
+		<!--<div id="mstate">
+			<p id="statefo"> 
+				Our mission is to serve, advance, and lead the network of organizations and individuals who cultivate, promote, sustain, and support the arts in America. Connecting your best ideas and leaders from the arts, communities, and business, together we can work to ensure that every American has access to the transformative power of the arts.
 
+			</p>
+		</div>-->
+		
 		<img id="afaheader" src="afalogo.png">	
 	
 		<p id="motto">
 			Donate and help us fight for the future of artists today. 
 		
 		</p>
-		
+
+		<img id="ddown"src="dropdown.png">
+		<script>
+$(".tab").mouseenter(function() {
+  $(this).animate({"width": "100%",
+  						"height": "100%","margin-left":"20px" }, 150 );
+});
+
+  $(".tab").mouseleave(function() {
+  	$(this).animate({"width": "80%","height": "80%","margin-left":"0px" }, 150 );
+});
+
+$("#ddown").click(function() {
+  $( "#afaheader" ).animate({"margin-top":"15%" }, 150);
+	$("#motto").fadeOut(10);
+		$("#mstate").css({ opacity: 1 });
+
+	});
+
+	</script>
 	</body>
 
 </html>
