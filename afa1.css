@@ -1,0 +1,80 @@
+
+@font-face {font-family: helvet;
+				src:url(helvconlight.otf)}
+
+#mainbg {background-image: url("francisbacon.jpg");
+			height:100%;
+				width:100%;
+					background-repeat:no-repeat;
+						background-attachment:fixed;
+							background-size:cover}
+
+#mainbg1 {background-image: url("jkoons.jpg");
+			height:100%;
+				width:100%;
+					background-repeat:no-repeat;
+						background-attachment:fixed;
+							background-size:cover;
+								}
+
+#navig {position:fixed;
+			margin-left:-35px;
+				
+					width:100px;}
+
+.nav {z-index:1;
+		margin-left:0px;
+				width:55px;
+					margin-top:-22px}
+
+ul {list-style-type: none;display:inline-block;}
+
+#home {margin-top: 50px}
+#ctac {}
+
+#afaheader {width:45%;
+				height:45%;
+					padding-left:2% ;
+						padding-top:1% }
+
+#afaheader1 {width:438px;
+				height:162px;
+					margin:1% ;
+						padding-top:1% }
+
+#ptart { background-color: rgba(102, 102, 102, .5);
+			width:450px;
+					height:600px;
+						padding:10px;
+							position:absolute;
+								margin:150px;
+							}
+
+#motto {color:white;
+			padding-top: 5%;
+			padding-left: 12%;
+				font-family: helvet;
+					font-size: 70px;
+						word-spacing: 2px}
+
+#infotitle {color:white;
+			margin: 0%;
+			text-align:center ;
+				margin-top: 10px;
+				font-family: helvet;
+					font-size: 30px;
+						word-spacing: 2px}
+
+#info {color:white;
+			margin: 2%;
+			text-align:center ;
+				font-family: helvet;
+					font-size: 20px;
+						word-spacing: 2px}
+
+
+p {color:black;
+		font-family: helvet;
+			font-size: 16px;
+				word-spacing: 3px}
+

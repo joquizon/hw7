@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+
+		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js">//jquery from google cdn
+		</script>
+		<style>
+		.butts { 
+					
+					height:20px;
+						width:20px;
+							z-index: 1;}
+
+		</style>
+
+	</head>
+
+
+	<body>
+<input id="button" class="butts" type="button">
+
+<input id="button1" type="button" class="butts">
+
+<input id="button2" type="button" class="butts">
+
+<input id="button3" type="button" class="butts">
+
+		<div id="1ontop"style="z-index:10;position:absolute;clear:both;">
+			<img  src="http://www.w3devcampus.com/wp-content/uploads/logoAndOther/logo_JavaScript.png"
+					style="height:15%; 
+								width:15%">
+								
+
+		</div>		
+
+		
+		
+		<div id="2ontop" style="z-index:9;position:absolute">
+			<img id="js2" src="http://www.w3devcampus.com/wp-content/uploads/logoAndOther/logo_JavaScript.png"
+					style="height:25%; 
+								width:25%">
+
+		
+		</div>
+
+		<div id="3ontop" style="position:absolute">
+			<img id="js3" src="http://www.w3devcampus.com/wp-content/uploads/logoAndOther/logo_JavaScript.png"
+					style="height:35%; 
+								width:35%">
+
+		
+		</div>
+
+
+
+		
+				
+		
+
+<script>
+//clickfunction doubleclickfunction and fadeOut
+
+$("#button").click(function() {
+  $( "#1ontop" ).fadeOut(1000);})
+	$("#button").dblclick(function() 
+		{$("#1ontop").fadeIn(1000)});
+
+
+$("#button1").click(function() {
+  $( "#2ontop" ).fadeOut(5000);
+  		$("#js2").height( 700 );
+	  		$("#js2").width( 700 );});
+
+$("#button1").dblclick(function() {
+  $( "#2ontop" ).fadeIn(1000);
+		$("#js2").height( 200 );
+  			$("#js2").width( 200 );});
+
+$("#button2").click(function() {
+  		$("#3ontop").animate({"right": "+=50px"}, "slow");});
+
+$("#button3").click(function() {
+  		$("#3ontop").animate({"right": "-=50px"}, "slow");});
+
+
+
+
+</script>
+		
+
+		
+
+	</body>
+
+</html>
