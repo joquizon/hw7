@@ -14,24 +14,28 @@
 		<nav id="navig">
 			<ul>
 				<li>
-
-					<img class="nav" src="navhome.png">
+					<a href="afaindex.html">
+						<img class="tab" src="navhome.png">
+					</a>
 				</li>
 				
 				<li>
-					<img class="nav" src="navprog.png">
+					<a href="afahome.html">
+						<img class="tab" src="navprog.png">
+					</a>
 				</li>
 				
 				<li>
-					<img class="nav"src="navdonation.png">
+					<img class="tab"src="navdonation.png">
 				</li>
 				
 				<li>
-					<img class="nav"  src="navcontact.png">
+					<img class="tab"  src="navcontact.png">
 				</li>
-			</ul>
-		</nav>
 		
+			</ul>
+		</nav>	
+		<div id="mainhold">
 		
 		<div id="ptart">
 			<img id="afaheader1" src="afalogo.png">
@@ -51,6 +55,33 @@
 				we come from and where we are going. Some might argue that this has always been the point of art.
 			</p>
 		</div>
+
+		<div id="ptart2">
+
+			<p id="info">
+				Evidence from brain research is only one of many reasons education and engagement in fine arts is beneficial to the educational process. The arts develop neural systems that produce a broad spectrum of benefits ranging from fine motor skills to creativity and improved emotional balance. One must realize that these systems often take months and even years to fine-tune. In a study conducted by Judith Burton, Columbia University, research evidenced that subjects such as mathematics, science, and language require complex cognitive and creative capacities “typical of arts learning” (Burton, Horowitz, & Abeles, 1999).  “The arts enhance the process of learning. The systems they nourish, which include our integrated sensory, attentional, cognitive, emotional, and motor capacities, are, in fact, the driving forces behind all other learning” (Jensen, 2001).
+				 
+				The fine arts also provide learners with non-academic benefits such as promoting self-esteem, motivation, aesthetic awareness, cultural exposure, creativity, improved emotional expression, as well as social harmony and appreciation of diversity. These are the very fibers of the fabric known as our American culture.
+				 
+				The following are findings reported in Champions of Change: The Impact of the Arts on Learning  (Fiske, 1999) that should be noted by every parent, teacher, and administrator:
+
+				The arts reach students not normally reached, in ways and methods not normally used.  (This leads to better student attendance and lower dropout rates.)
+
+				It changes the learning environment to one of discovery.  (This often re-ignites the love of learning in students tired of just being fed facts.)
+
+				Students connect with each other better.  (This often results in fewer fights, greater understanding of diversity, and greater peer support.)
+
+				The arts provide challenges to students of all levels.  (Each student can find his/her own level from basic to gifted.)
+
+				Students learn to become sustained, self-directed learners.  (The student does not just become an outlet for stored facts from direct instruction, but seeks to extend instruction to higher levels of proficiency.)
+
+				The study of the fine arts positively impacts the learning of students of lower socioeconomic status as much or more than those of a higher socioeconomic status.  (Twenty-one percent of students of low socioeconomic status who had studied music scored higher in math versus just eleven percent of those who had not. By the senior year, these figures grew to 33 percent and 16 percent, respectively, suggesting a cumulative value to music education.)
+			</p>
+
+
+		</div>
+
+	</div >
 		<!--<img id="art1" src="picasso.gif">
 		<img id="art2" src="jmb.gif">
 		<img id="art3" src="dali.gif">
@@ -91,6 +122,40 @@
 			</p>
 		</div>
 -->
+	<script>
+				$(".tab").mouseenter
+					(function() 
+						{
+			  				$(this).animate
+			  				(
+			  					{
+					  				"width": "100%",
+					  					"height": "100%",
+					  						"margin-left":"20px" 
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+
+		  		$(".tab").mouseleave
+		  			(function() 
+			  			{
+			  				$(this).animate
+			  					(
+			  						{
+			  							"width": "80%",
+											"height": "80%",
+			  									"margin-left":"0px" 
+			  						}, 150 
+			  					);
+			  			}
+		  			);
+
+				
+
+		</script>
 	</body>
 
 </html>

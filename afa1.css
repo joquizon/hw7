@@ -39,6 +39,12 @@
 @font-face {font-family: neutron;
 				src:url( neutron.otf)}
 
+@font-face {font-family: rounded;
+				src:url( rounded.ttf)}
+
+@font-face {font-family: mike;
+				src:url( mike.ttf)}					
+
 #mainbg {background-image: url("francisbacon.jpg");
 			height:100%;
 				width:100%;
@@ -56,7 +62,7 @@
 
 #navig {position:fixed;
 			margin-left:-35px;
-				
+				z-index: 30;
 					width:100px;}
 
 .tab {z-index:30;
@@ -66,8 +72,6 @@
 
 ul {list-style-type: none;display:inline-block;}
 
-#home {margin-top: 50px}
-#ctac {}
 
 #ddown {width:4%;
 			height:4%;}
@@ -102,22 +106,34 @@ ul {list-style-type: none;display:inline-block;}
 				height:162px;
 					margin:1% ;
 						padding-top:1% }
+#mainhold{position: absolute;}
 
 #ptart { background-color: rgba(102, 102, 102, .5);
 			width:450px;
 					height:600px;
 						padding:10px;
-							position:absolute;
+						float:left;
+							/*position:absolute;*/
 								margin:150px;
 							}
 
-#motto {color:white;
+#ptart2 { background-color: rgba(102, 102, 102, .5);
+			width:700px;
+					height:800px;
+						float:left;
+						/*padding-left:460px;*/
+							/*position:absolute;*/
+								margin:150px;
+							}
+
+
+#motto {color: #FFB600;
 			padding-top: 5%;
-				padding-left:20%;
-					font-family: helvet;
-						font-size: 60px;
+				padding-left: 0%;
+					font-family: registration;
+						font-size: 120px;
 							word-spacing: 2px;
-								text-align: center}
+								text-align: center;}
 
 #infotitle {color:white;
 			margin: 0%;

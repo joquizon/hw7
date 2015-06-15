@@ -13,11 +13,15 @@
 		<nav id="navig">
 			<ul>
 				<li>
-					<img class="tab" src="navhome.png">
+					<a href="afaindex.html">
+						<img class="tab" src="navhome.png">
+					</a>
 				</li>
 				
 				<li>
-					<img class="tab" src="navprog.png">
+					<a href="afahome.html">
+						<img class="tab" src="navprog.png">
+					</a>
 				</li>
 				
 				<li>
@@ -41,8 +45,7 @@
 		<img id="afaheader" src="afalogo.png">	
 	
 		<p id="motto">
-			Donate and help us fight 
-		
+			DONATE TODAY
 		</p>
 
 	<!-- <img id="ddown"src="dropdown.png">  -->
@@ -78,125 +81,7 @@
 		  			}
 	  			);
 
-			setInterval(function()
-							{
-							    var today = new Date();
-							    var h = today.getHours();
-							    var m = today.getMinutes();
-							    var seconds = today.getSeconds();
-			                    var str = document.getElementById("motto").innerHTML; 
-                                var res1 = str.replace("Donate and help us fight", "Donate for the arts ");
-                                var res2 = str.replace("Donate and help us fight", "ART UNFOLDS ");
-                                var res3 = str.replace("Donate and help us fight", "SPARK A FIRE ");
-  
-
-			  if ( seconds >= 0 && seconds <= 58 )
-			  // 	{   
-			  // 		document.getElementById("mainbg").style.backgroundImage = 
-			  // 			"url('ptg3.gif')";
-					
-					// document.getElementById("motto").innerHTML = 
-					// 	res1;
-
-					// document.getElementById("motto").style.fontFamily = "rurable";
-
-					// document.getElementById("motto").style.fontSize = "120px";
-
-					// document.getElementById("motto").style.paddingLeft = "0%";
-
-					// document.getElementById("motto").style.paddingTop = "0%";
-
-					// document.getElementById("motto").style.color = "#F20000";
-			  		
-			  // 	}
-
-			  // {   
-			  // 		document.getElementById("mainbg").style.backgroundImage = 
-			  // 			"url('sculpt.gif')";
-					
-					// document.getElementById("motto").innerHTML = 
-					// 	res2;
-
-					// document.getElementById("motto").style.fontFamily = "code";
-
-					// document.getElementById("motto").style.fontSize = "240px";
-
-					// document.getElementById("motto").style.paddingLeft = "0%";
-
-					// document.getElementById("motto").style.paddingTop = "0%";
-
-					// document.getElementById("motto").style.color = "#F20000";
-			  		
-			  // 	}
-
-			  //  {   
-			  // 		document.getElementById("mainbg").style.backgroundImage = 
-			  // 			"url('spark.gif')";
-					
-					// document.getElementById("motto").innerHTML = 
-					// 	res3;
-
-					// document.getElementById("motto").style.fontFamily = "uncon";
-
-					// document.getElementById("motto").style.fontSize = "150px";
-
-					// document.getElementById("motto").style.paddingLeft = "0%";
-
-					// document.getElementById("motto").style.paddingTop = "0%";
-
-					// document.getElementById("motto").style.color = "#FFFFFF";
-
-					// document.getElementById("afaheader").src= "afalogowhite.png";
-			  		
-			  // 	}
-
-			  	{   
-			  		document.getElementById("mainbg").style.backgroundImage = 
-			  			"url('art.gif')";
-					
-					document.getElementById("motto").innerHTML = 
-						res3;
-
-					document.getElementById("motto").style.fontFamily = "registration";
-
-					document.getElementById("motto").style.fontSize = "150px";
-
-					document.getElementById("motto").style.paddingLeft = "0%";
-
-					document.getElementById("motto").style.paddingTop = "0%";
-
-					document.getElementById("motto").style.color = "#FFFFFF";
-
-					document.getElementById("afaheader").src= "afalogowhite.png";
-			  		
-			  	}
-			  else if (seconds >58 && seconds <59)
-			  	{   
-			  		document.getElementById("mainbg").style.backgroundImage = 
-			  			"url('')";
-					
-					document.getElementById("motto").innerHTML = 
-						res1;
-
-					document.getElementById("motto").style.fontFamily = "rurable";
-
-					document.getElementById("motto").style.fontSize = "120px";
-			  		
-			  	}
 			
-			  else
-			  	{ document.getElementById("mainbg").style.backgroundImage = "url('giphy.gif')"}},3000)
-
-
-
-
-
-			$("#ddown").click(function() {
-			  $( "#afaheader" ).animate({"margin-top":"15%" }, 150);
-				$("#motto").fadeOut(10);
-					$("#mstate").css({ opacity: 1 });
-
-				});
 
 	</script>
 	</body>
