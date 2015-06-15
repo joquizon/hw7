@@ -2,6 +2,43 @@
 @font-face {font-family: helvet;
 				src:url(helvconlight.otf)}
 
+
+@font-face {font-family: uncon;
+				src:url(uncon.ttf)}
+
+@font-face {font-family: sportsjersey;
+				src:url( sportsjersey.ttf)}
+
+@font-face {font-family: rurable;
+				src:url( rurable.ttf)}
+
+@font-face {font-family: registration;
+				src:url( registration.ttf)}
+
+@font-face {font-family: primetime;
+				src:url( primetime.ttf)}
+
+@font-face {font-family: paragon;
+				src:url( paragon.ttf)}
+
+@font-face {font-family: lacomp;
+				src:url( lacomp.ttf)}
+
+@font-face {font-family: uncon;
+				src:url( uncon.ttf)}
+
+@font-face {font-family: code;
+				src:url( code.otf)}
+
+@font-face {font-family: japan;
+				src:url( japan.ttf)}
+
+@font-face {font-family: sciencefair;
+				src:url( sciencefair.otf)}
+
+@font-face {font-family: neutron;
+				src:url( neutron.otf)}
+
 #mainbg {background-image: url("francisbacon.jpg");
 			height:100%;
 				width:100%;
@@ -56,8 +93,8 @@ ul {list-style-type: none;display:inline-block;}
 				position:absolute
 				word-spacing: 3px}
 
-#afaheader {width:45%;
-				height:45%;
+#afaheader {width:40%;
+				height:40%;
 					padding-left:29% ;
 						padding-top:1% }
 
@@ -76,10 +113,11 @@ ul {list-style-type: none;display:inline-block;}
 
 #motto {color:white;
 			padding-top: 5%;
-			padding-left:5%;
-				font-family: helvet;
-					font-size: 60px;
-						word-spacing: 2px}
+				padding-left:20%;
+					font-family: helvet;
+						font-size: 60px;
+							word-spacing: 2px;
+								text-align: center}
 
 #infotitle {color:white;
 			margin: 0%;
