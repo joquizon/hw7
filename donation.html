@@ -1,0 +1,99 @@
+<!doctype HTML>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="afa1.css">
+		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js">//jquery from google cdn
+		</script>
+		
+	</head>
+
+	<body id="mainbg2">
+		<nav id="navig">
+			<ul>
+				<li>
+					<a href="afaindex.html">
+						<img class="tab" src="navhome.png">
+					</a>
+				</li>
+				
+				<li>
+					<a href="afahome.html">
+					<img class="tab" src="navprog.png">
+					</a>
+				</li>
+				
+				<li>
+					<a href="donation.html">	
+						<img class="tab"src="navdonation.png">
+					</a>
+				</li>
+				
+				<li>
+					<a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
+						<img class="tab"  src="navcontact.png">
+					</a>
+				</li>
+		
+			</ul>
+		</nav>	
+		
+		<div id="mainholdblock">
+		</div>
+		
+		<div id="mainhold2">
+			
+			<img id="afaheader2" src="afalogo.png">	
+				
+				<div id="mstate">
+					<p id="statefo"> 
+						The Art Funding Alliance is an organization that seeks to raise funds for the arts. It takes donated resources and puts them to use in the various programs designed to help struggling artists and struggling art educators. The donated resources are also used to fund supplies for local and national art education programs that are in need of assistance. The Art Funding Alliance also raises money for lower and middle class income families that have members who wish to go to College or Art school but do not qualify for enough grant and or loan assistance to attend.Help us fight for the future of artists today.
+						Our mission is to serve, advance, and lead the network of organizations and individuals who cultivate, promote, sustain, and support the arts in America. Connecting your best ideas and leaders from the arts, communities, and business, together we can work to ensure that every American has access to the transformative power of the arts. DONATE TODAY by clicking 
+
+					<a href="https://www.paypal.com/signin/?country.x=US&locale.x=en_US">
+						<img id="piggy" src="banklink.png">
+					</a>
+
+					</p>
+		
+				</div>
+		</div>
+
+		
+		<script>
+			$(".tab").mouseenter
+				(function() 
+					{
+		  				$(this).animate
+		  				(
+		  					{
+				  				"width": "100%",
+				  					"height": "100%",
+				  						"margin-left":"20px" 
+		  					},
+		  					150 
+		  				);
+		  			}
+	  			);
+
+
+	  		$(".tab").mouseleave
+	  			(function() 
+		  			{
+		  				$(this).animate
+		  					(
+		  						{
+		  							"width": "80%",
+										"height": "80%",
+		  									"margin-left":"0px" 
+		  						}, 150 
+		  					);
+		  			}
+	  			);
+
+			
+
+		</script>
+	</body>
+
+</html>
