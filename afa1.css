@@ -110,8 +110,8 @@ ul {list-style-type: none;display:inline-block;}
 
 #ptart { background-color: rgba(102, 102, 102, .5);
 			width:450px;
-					height:600px;
-						padding:10px;
+					height:900px;
+						padding:00px;
 						float:left;
 							/*position:absolute;*/
 								margin:20px;
@@ -178,6 +178,14 @@ ul {list-style-type: none;display:inline-block;}
 				font-family: helvet;
 					font-size: 20px;
 						word-spacing: 2px}
+
+#infob {color:white;
+			margin: 2%;
+			text-align:center ;
+				font-family: helvet;
+					font-size: 20px;
+						word-spacing: 2px}
+
 #info2a {color:white;
 			margin: 10px;
 			text-align:left ;
@@ -207,6 +215,10 @@ ul {list-style-type: none;display:inline-block;}
 						word-spacing: 2px}
 
 #close { height: 0px;
+			width: 0px;
+				margin-top: 0px;}
+
+#close2 { height: 0px;
 			width: 0px;
 				margin-top: 0px;}
 
