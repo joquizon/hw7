@@ -114,18 +114,47 @@ ul {list-style-type: none;display:inline-block;}
 						padding:10px;
 						float:left;
 							/*position:absolute;*/
-								margin:150px;
+								margin:20px;
 							}
 
 #ptart2 { background-color: rgba(102, 102, 102, .5);
-			width:700px;
-					height:800px;
+			width:300px;
+					height:900px;
 						float:left;
-						/*padding-left:460px;*/
-							/*position:absolute;*/
-								margin:150px;
+						text-align: left;
+								margin:20px;
+								padding:0px;
 							}
 
+#ptart3 { background-color: rgba(102, 102, 102, 1);
+			width:0px;
+					height:0px;
+						float:left;
+						text-align: left;
+								margin:0px;
+									padding:0px;
+								
+							}
+
+#ptart4 { background-color: rgba(102, 102, 102, .5);
+			width:300px;
+					height:900px;
+						float:left;
+						text-align: left;
+								margin:20px;
+
+								padding:0px;
+							}
+
+#ptart5 { background-color: rgba(102, 102, 102, 1);
+			width:0px;
+					height:0px;
+						float:left;
+						text-align: left;
+								margin:0px;
+									padding:0px;
+								
+							}
 
 #motto {color: #FFB600;
 			padding-top: 5%;
@@ -135,7 +164,7 @@ ul {list-style-type: none;display:inline-block;}
 							word-spacing: 2px;
 								text-align: center;}
 
-#infotitle {color:white;
+.infotitle {color:white;
 			margin: 0%;
 			text-align:center ;
 				margin-top: 10px;
@@ -149,10 +178,41 @@ ul {list-style-type: none;display:inline-block;}
 				font-family: helvet;
 					font-size: 20px;
 						word-spacing: 2px}
+#info2a {color:white;
+			margin: 10px;
+			text-align:left ;
+				font-family: helvet;
+					font-size: 20px;
+						word-spacing: 2px}
 
+#info3a {color:white;
+			margin: 10px;
+			text-align:left ;
+				font-family: helvet;
+					font-size: 20px;
+						word-spacing: 2px}
+
+#info2 {color:white;
+			margin: 2%;
+			text-align:left ;
+				font-family: helvet;
+					font-size: 0px;
+						word-spacing: 2px}
+
+#info3 {color:white;
+			margin: 2%;
+			text-align:left ;
+				font-family: helvet;
+					font-size: 0px;
+						word-spacing: 2px}
+
+#close { height: 0px;
+			width: 0px;
+				margin-top: 0px;}
 
 p {color:black;
 		font-family: helvet;
 			font-size: 16px;
 				word-spacing: 3px}
+
 
