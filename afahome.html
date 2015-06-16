@@ -5,8 +5,6 @@
 		<link rel="stylesheet" href="afa1.css">
 		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js">//jquery from google cdn
 		</script>
-		<script src="afa.js">
-		</script>
 	</head>
 
 	<body id="mainbg1">
@@ -39,12 +37,18 @@
 		
 		<div id="ptart">
 			<img id="afaheader1" src="afalogo.png">
+			<p id="info">
+
+				The Art Funding Alliance is an organization that seeks to raise funds for the arts. It takes donated resources and puts them to use in the various programs designed to help struggling artists and struggling art educators. The donated resources are also used to fund supplies for local and national art education programs that are in need of assistance. The Art Funding Alliance also raises money for lower and middle class income families that have members who wish to go to College or Art school but do not qualify for enough grant and or loan assistance to attend.Help us fight for the future of artists today.
+
+			</p>	
+
 			<p class="infotitle">
 					
 					Why do We Need Art?
 				
 			</p>	
-			<p id="info">
+			<p id="infob">
 				Education  in the arts is an integral part of the development of each human being. Those who have studied learning processes throughout the ages, beginning with Plato, have emphasized the importance of the arts in the education process. Arts education refers to education in the disciplines of music, dance, theatre, and visual arts. Study in the arts is integral to our society.
 				It is a mirror, reflecting 
 				vision and wisdom back at us from our generation's 
@@ -72,7 +76,7 @@
 
 			</p>
 		</div>		
-	</a>
+</a>
 
 <a href="#">
 		<div id="ptart4">
@@ -84,9 +88,9 @@
 			</p>
 
 			<p id="info3a">
-				Is the study of fine arts important? They engage many areas of the brain and also have far-reaching effects on the learner’s mind (Jensen, 2001). The arts promote the understanding and sharing of culture.  They promote social skills that enhance the awareness and respect of others. The fine arts enhance perceptual and cognitive skills. The Burton study of more than 2000 children found that those in the arts curriculum were far superior in creative thinking, self-concept, problem-solving, self-expression, risk-taking, and cooperation than those who were not (Burton et al., 1999). The arts have the capacity to engage everyone. All levels of American society can and do participate in the fine arts. There are no barriers of race, religion, culture, geography, or socioeconomic levels.
+				Is the study of fine arts important? They engage many areas of the brain and also have far-reaching effects on the learner's mind (Jensen, 2001). The arts promote the understanding and sharing of culture.  They promote social skills that enhance the awareness and respect of others. The fine arts enhance perceptual and cognitive skills. The Burton study of more than 2000 children found that those in the arts curriculum were far superior in creative thinking, self-concept, problem-solving, self-expression, risk-taking, and cooperation than those who were not (Burton et al., 1999). The arts have the capacity to engage everyone. All levels of American society can and do participate in the fine arts. There are no barriers of race, religion, culture, geography, or socioeconomic levels.
 
-				Today’s world is witness to the Information Age. The primary sources of content information are no longer teacher lectures or textbooks. Learning is not limited to what you know, but is dependent upon how to find information and how to use that information quickly, creatively, and cooperatively.  "We are in the twilight of a society based on data... continued (click article)
+				Today's world is witness to the Information Age. The primary sources of content information are no longer teacher lectures or textbooks. Learning is not limited to what you know, but is dependent upon how to find information and how to use that information quickly, creatively, and cooperatively.  "We are in the twilight of a society based on data... continued (click article)
 
 			</p>
 		</div>		
@@ -96,12 +100,12 @@
 
 			<p id="info3">
 
-				As information and intelligence become the domain of computers, society will place a new value on the one human ability that can’t be automated: emotion (Jensen, 1999, p. 84)."  Today’s students are inundated with data but are starving for meaningful learning. Workplace demands are for students to understand how to solve problems, what makes arguments plausible, how to build teams and coalitions, and how to incorporate the concept of fairness into the everyday decisions. Students need to be thinkers, possess people skills, be problem-solvers, demonstrate creativity, and work as a member of a team. We need to offer more in-depth learning about the things that matter the most: order, integrity, thinking skills, a sense of wonder, truth, flexibility, fairness, dignity, contribution, justice, creativity and cooperation. The arts provide all of these.
+				As information and intelligence become the domain of computers, society will place a new value on the one human ability that can't be automated: emotion (Jensen, 1999, p. 84)."  Today's students are inundated with data but are starving for meaningful learning. Workplace demands are for students to understand how to solve problems, what makes arguments plausible, how to build teams and coalitions, and how to incorporate the concept of fairness into the everyday decisions. Students need to be thinkers, possess people skills, be problem-solvers, demonstrate creativity, and work as a member of a team. We need to offer more in-depth learning about the things that matter the most: order, integrity, thinking skills, a sense of wonder, truth, flexibility, fairness, dignity, contribution, justice, creativity and cooperation. The arts provide all of these.
 				 
 				Perhaps the most fundamental element to education one should consider is the manner in which we perceive and make sense of the world in which we live. An effective education in the fine arts helps students to see what they look at, hear what they listen to, and feel what they touch. Engagement in the fine arts helps students to stretch their minds beyond the boundaries of the printed text or the rules of what is provable. The arts free the mind from rigid certainty. Imagine the benefits of seeking, finding, and developing multiple solutions to the myriad of problems facing our society today! These processes, taught through the study of the arts, help to develop the tolerance for coping with the ambiguities and uncertainties present in the everyday affairs of human existence. There is a universal need for words, music, dance, and visual art to give expression to the innate urgings of the human spirit. (Eisner, 1987)  The premier organizations in the corporate world today recognize that the human intellect "draws from many wells." Arts education gives access to the deepest of those wells.        
 			</p>
 		</div>		
-	
+			<img id="close2" src="closebutt.png"> 
 		<div id="ptart3">
 
 			<p id="info2">
@@ -293,6 +297,45 @@
 			  			}
 		  			);
 
+		  	$("#ptart2").click
+					(function() 
+						{
+			  				$("#infob").animate
+			  				(
+			  					{
+					  				"font-size":"0px"					  						
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+		  	$("#ptart4").click
+					(function() 
+						{
+			  				$("#info").animate
+			  				(
+			  					{
+					  				"font-size":"0px"					  						
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+		  			$("#ptart4").click
+					(function() 
+						{
+			  				$("#infob").animate
+			  				(
+			  					{
+					  				"font-size":"0px"					  						
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
 		  		$("#ptart2").click
 					(function() 
 						{
@@ -319,6 +362,19 @@
 			  			}
 		  			);
 
+		  	$("#ptart4").click
+					(function() 
+						{
+			  				$(".infotitle").animate
+			  				(
+			  					{
+					  				"font-size":"0px"					  						
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
 		  	$("#ptart2").click
 					(function() 
 						{
@@ -333,6 +389,35 @@
 			  			}
 		  			);
 
+		  	$("#ptart4").click
+					(function() 
+						{
+			  				$("#afaheader1").animate
+			  				(
+			  					{
+					  				"width":"0px",
+					  					"height":"0px"					  						
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+			$("#ptart4").click
+					(function() 
+						{
+			  				$("#info2a").animate
+			  				(
+			  					{
+					  				"font-size": "0px",
+					  				"padding": "0px"
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+
 			$("#ptart2").click
 					(function() 
 						{
@@ -346,6 +431,7 @@
 			  				);
 			  			}
 		  			);
+
 
 		  	$("#ptart2").click
 				(function() 
@@ -369,6 +455,85 @@
 			  			}
 		  			);
 
+		  	$("#ptart2").click
+					(function() 
+						{
+			  				$("#close2").animate
+			  				(
+			  					{
+			  						"height": "0px",	
+										"width": "0px",
+											"margin-top":"0px"
+
+
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+		  			
+
+		  	$("#ptart4").click
+					(function() 
+						{
+			  				$("#close2").animate
+			  				(
+			  					{
+			  						"height": "20px",	
+										"width": "20px",
+											"margin-top":"20px"				  						
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+		  	$("#ptart4").click
+					(function() 
+						{
+			  				$("#close").animate
+			  				(
+			  					{
+			  						"height": "0px",	
+										"width": "0px",
+											"margin-top":"0px"				  						
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+
+			$("#ptart4").click
+					(function() 
+						{
+			  				$("#info3").animate
+			  				(
+			  					{
+					  				"font-size": "20px",
+					  				"padding": "10px"
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+		  	$("#ptart4").click
+					(function() 
+						{
+			  				$("#ptart5").animate
+			  				(
+			  					{
+					  				"width": "485px",
+					  					"height": "900px",
+					  						"padding": "0px",
+					  							"margin": "20px"
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
 // close butt func
 
 $("#close").click
@@ -402,8 +567,8 @@ $("#close").click
 			  				(
 			  					{
 					  				"width": "450px",
-					  					"height": "600px",
-					  						"padding":"10px",
+					  					"height": "900px",
+					  						"padding":"0px",
 
 			  					},
 			  					150 
@@ -415,6 +580,19 @@ $("#close").click
 					(function() 
 						{
 			  				$("#info").animate
+			  				(
+			  					{
+					  				"font-size":"20px"					  			
+					  			},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+		  	$("#close").click
+					(function() 
+						{
+			  				$("#infob").animate
 			  				(
 			  					{
 					  				"font-size":"20px"					  			
@@ -515,6 +693,210 @@ $("#close").click
 			  				);
 			  			}
 		  			);
+
+// close button 2
+
+$("#close2").click
+				(function() 
+					{
+		  				
+		  					$(this).css("background-color","rgba(102, 102, 102, .5)")
+		  			}
+	  			);
+
+	  		$("#close2").click
+					(function() 
+						{
+			  				$("#ptart5").animate
+			  				(
+			  					{
+					  				"width": "0px",
+					  					"height": "0px",
+					  						"padding": "0px",
+					  							"margin": "0px"
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+			$("#close2").click
+					(function() 
+						{
+			  				$("#ptart").animate
+			  				(
+			  					{
+					  				"width": "450px",
+					  					"height": "900px",
+					  						"padding":"0px",
+
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+		  	$("#close2").click
+					(function() 
+						{
+			  				$("#info").animate
+			  				(
+			  					{
+					  				"font-size":"20px"					  			
+					  			},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+		  	$("#close2").click
+					(function() 
+						{
+			  				$("#infob").animate
+			  				(
+			  					{
+					  				"font-size":"20px"					  			
+					  			},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+			$("#close2").click
+					(function() 
+						{
+			  				$("#info2a").animate
+			  				(
+			  					{
+					  				"font-size":"20px"					  			
+					  			},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+			$("#close2").click
+					(function() 
+						{
+			  				$(".infotitle").animate
+			  				(
+			  					{
+					  				"font-size":"30px"					  						
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+		  	$("#close2").click
+					(function() 
+						{
+			  				$("#afaheader1").animate
+			  				(
+			  					{
+					  				"width":"438px",
+					  					"height":"162px"					  						
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+			$("#close2").click
+					(function() 
+						{
+			  				$("#info3a").animate
+			  				(
+			  					{
+					  				"font-size": "0px",
+					  				"padding": "0px"
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+		  	$("#close2").click
+				(function() 
+					{
+		  				$("#ptart4").css("background-color","rgba(102, 102, 102, .5)")
+		  			}
+	  			);
+
+	  		$("#close2").click
+					(function() 
+						{
+			  				$("#close").animate
+			  				(
+			  					{
+			  						"height": "0px",	
+										"width": "0px",
+											"margin-top":"0px"				  						
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+			$("#close2").click
+					(function() 
+						{
+			  				$("#ptart2").animate
+			  				(
+			  					{
+					  				"width": "300px",
+					  					"height": "900px",
+					  						"padding":"0px",
+
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+		  	$("#close2").click
+					(function() 
+						{
+			  				$("#info3a").animate
+			  				(
+			  					{
+					  				"font-size":"20px"					  						
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+		  	$("#close2").click
+					(function() 
+						{
+			  				$("#close2").animate
+			  				(
+			  					{
+			  						"height": "0px",	
+										"width": "0px",
+											"margin-top":"0px"				  						
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+		  	$("#close2").click
+					(function() 
+						{
+			  				$("#info3").animate
+			  				(
+			  					{
+					  				"font-size":"0px"					  						
+			  					},
+			  					150 
+			  				);
+			  			}
+		  			);
+
+			
+		  
 		</script>
 	</body>
 
